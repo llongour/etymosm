@@ -45,7 +45,7 @@ knitr::opts_chunk$set(echo=TRUE,
 
 Ce document montre comment réaliser une analyse reproductible de la répartition du genre dans les odonymes. Une analyse similaire a été réalisée à partir d'un jeux de données sur les prénoms disponible sur data.gouv.fr [@Gilles14] ainsi qu'une méthodologie s'appuyant sur un rapprochement des données OpenStreetMap avec Wikidata [@Comai21]. Cependant cette méthode ne s'appuie pas sur la clef `name:etymology:wikidata` [@wikiosm:Key:name:etymology:wikidata] qui permet d'identifier clairement l'origine étymologique d'un élément sur OpenStreetMap. Ici nous attendons prouver qu'il est possible de réaliser cette analyse à grande échelle, en générant également des matrices de confiance.
 
-Il existe principalement deux outils pour tirer parti de cette clef `name:etymology:wikidata`
+Il existe plusieurs outils qui tirent parti de cette clef `name:etymology:wikidata`
 
 -   <https://etymology.dsantini.it/> dont la méthodologie est décrite [ici](https://gitlab.com/openetymologymap/open-etymology-map/-/blob/main/CONTRIBUTING.md#how-to-contribute-to-the-etymology-data).
 
@@ -54,6 +54,10 @@ Il existe principalement deux outils pour tirer parti de cette clef `name:etymol
 -   <https://mapcomplete.osm.be/etymology.html> pour visualiser et contribuer
 
 ![](figures/mapcomplete.png)
+
+-   <https://geochicasosm.github.io/lascallesdelasmujeres/> pour visualiser les noms de rues par genre
+
+![](figures/lascallesdelasmujeres.png)
 
 # Préparation des données
 
